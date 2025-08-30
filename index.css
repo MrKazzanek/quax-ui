@@ -2,7 +2,7 @@
 .Rounded-Close-Button-WC-1 {
   background-color: #f50f0f;   
   border: 2px solid #7d0b0b;  
-  color: #7d0b0b;                
+  color: #fff;                
   border-radius: 8px;         
   padding: 6px 12px;          
   font-size: 14px;            
@@ -16,7 +16,7 @@
 }
 
 .Rounded-Close-Button-WC-1:active {
-  color: white; 
+  
   background-color: #b50b0b;  
   transform: scale(0.97);     
 }

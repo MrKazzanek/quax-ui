@@ -1,4 +1,21 @@
-// --- Body ---
-.body{
-  background-color: black;
+/* Rounded Close Button With Contour 1 */
+.Rounded-Close-Button-WC-1 {
+  background-color: #f50f0f;   /* czerwone tło */
+  border: 1px solid #7d0b0b;  /* ciemniejsze obramowanie */
+  color: #fff;                /* biały kolor ikony/tekstu */
+  border-radius: 8px;         /* lekkie zaokrąglenie rogów */
+  padding: 6px 12px;          /* wewnętrzny odstęp */
+  font-size: 14px;            /* rozmiar tekstu */
+  cursor: pointer;            /* kursor ręki */
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.Rounded-Close-Button-WC-1:hover {
+  background-color: #d90d0d;  /* ciemniejszy odcień przy najechaniu */
+  transform: scale(1.05);     /* lekkie powiększenie */
+}
+
+.Rounded-Close-Button-WC-1:active {
+  background-color: #b50b0b;  /* jeszcze ciemniejszy przy kliknięciu */
+  transform: scale(0.97);     /* wciśnięty efekt */
 }

@@ -1,21 +1,42 @@
 /* Rounded Close Button With Contour 1 */
 .Rounded-Close-Button-WC-1 {
-  background-color: #f50f0f;   /* czerwone tło */
-  border: 2px solid #7d0b0b;  /* ciemniejsze obramowanie */
-  color: #fff;                /* biały kolor ikony/tekstu */
-  border-radius: 8px;         /* lekkie zaokrąglenie rogów */
-  padding: 6px 12px;          /* wewnętrzny odstęp */
-  font-size: 14px;            /* rozmiar tekstu */
-  cursor: pointer;            /* kursor ręki */
+  background-color: #f50f0f;   
+  border: 2px solid #7d0b0b;  
+  color: #fff;                
+  border-radius: 8px;         
+  padding: 6px 12px;          
+  font-size: 14px;            
+  cursor: pointer;            
   transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
 .Rounded-Close-Button-WC-1:hover {
-  background-color: #d90d0d;  /* ciemniejszy odcień przy najechaniu */
-  transform: scale(1.05);     /* lekkie powiększenie */
+  background-color: #d90d0d;  
+  transform: scale(1.05);     
 }
 
 .Rounded-Close-Button-WC-1:active {
-  background-color: #b50b0b;  /* jeszcze ciemniejszy przy kliknięciu */
-  transform: scale(0.97);     /* wciśnięty efekt */
+  background-color: #b50b0b;  
+  transform: scale(0.97);     
+}
+/* Rounded Accept Button With Contour 1 */
+.Rounded-Accept-Button-WC-1 {
+  background-color: #2ff21d;   
+  border: 2px solid #1d8f13;  
+  color: #fff;                
+  border-radius: 8px;         
+  padding: 6px 12px;          
+  font-size: 14px;            
+  cursor: pointer;            
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.Rounded-Accept-Button-WC-1:hover {
+  background-color: #29d119;  
+  transform: scale(1.05);     
+}
+
+.Rounded-Accept-Button-WC-1:active {
+  background-color: #21a315;  
+  transform: scale(0.97);     
 }
